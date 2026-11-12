@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- выделенный пункт ставит MainActivity по текущему экрану; в группе single его нельзя было бы снять -->
+    <item android:title="@string/nav_group_places">
+        <menu>
+            <group
+                android:id="@+id/drawer_group_places"
+                android:checkableBehavior="all">
+                <item
+                    android:id="@+id/drawer_sights"
+                    android:icon="@drawable/ic_category_sights"
+                    android:title="@string/category_sights_title" />
+                <item
+                    android:id="@+id/drawer_museums"
+                    android:icon="@drawable/ic_category_museums"
+                    android:title="@string/category_museums_title" />
+                <item
+                    android:id="@+id/drawer_parks"
+                    android:icon="@drawable/ic_category_parks"
+                    android:title="@string/category_parks_title" />
+                <item
+                    android:id="@+id/drawer_theatres"
+                    android:icon="@drawable/ic_category_theatres"
+                    android:title="@string/category_theatres_title" />
+                <item
+                    android:id="@+id/drawer_family"
+                    android:icon="@drawable/ic_category_family"
+                    android:title="@string/category_family_title" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_group_app">
+        <menu>
+            <group
+                android:id="@+id/drawer_group_app"
+                android:checkableBehavior="all">
+                <item
+                    android:id="@+id/aboutFragment"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/nav_about" />
+                <item
+                    android:id="@+id/settingsFragment"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/nav_settings" />
+            </group>
+        </menu>
+    </item>
+</menu>
