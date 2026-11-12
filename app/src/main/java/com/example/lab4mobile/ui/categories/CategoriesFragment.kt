@@ -15,6 +15,7 @@ import com.example.lab4mobile.databinding.FragmentListBinding
 import com.example.lab4mobile.ui.CityViewModel
 import com.example.lab4mobile.ui.CityViewModelFactory
 import com.example.lab4mobile.ui.list.CategoryAdapter
+import com.example.lab4mobile.ui.navigateFrom
 
 class CategoriesFragment : Fragment() {
 
@@ -43,7 +44,8 @@ class CategoriesFragment : Fragment() {
     }
 
     private fun openCategory(category: Category) {
-        findNavController().navigate(
+        findNavController().navigateFrom(
+            R.id.categoriesFragment,
             CategoriesFragmentDirections.actionCategoriesToPlaces(category.id, getString(category.titleRes))
         )
     }

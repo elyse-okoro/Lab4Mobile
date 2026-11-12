@@ -16,6 +16,7 @@ import com.example.lab4mobile.databinding.FragmentListBinding
 import com.example.lab4mobile.ui.CityViewModel
 import com.example.lab4mobile.ui.CityViewModelFactory
 import com.example.lab4mobile.ui.list.PlaceAdapter
+import com.example.lab4mobile.ui.navigateFrom
 
 /** Избранные места. Список общий с экраном деталей через общую ViewModel. */
 class FavoritesFragment : Fragment() {
@@ -48,7 +49,8 @@ class FavoritesFragment : Fragment() {
     }
 
     private fun openPlace(place: Place) {
-        findNavController().navigate(
+        findNavController().navigateFrom(
+            R.id.favoritesFragment,
             FavoritesFragmentDirections.actionFavoritesToPlaceDetail(place.id, getString(place.nameRes))
         )
     }

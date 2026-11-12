@@ -16,6 +16,7 @@ import com.example.lab4mobile.databinding.FragmentListBinding
 import com.example.lab4mobile.ui.CityViewModel
 import com.example.lab4mobile.ui.CityViewModelFactory
 import com.example.lab4mobile.ui.list.PlaceAdapter
+import com.example.lab4mobile.ui.navigateFrom
 
 /** Места одной категории. Категория приходит аргументом Safe Args (categoryId). */
 class PlacesFragment : Fragment() {
@@ -44,7 +45,8 @@ class PlacesFragment : Fragment() {
     }
 
     private fun openPlace(place: Place) {
-        findNavController().navigate(
+        findNavController().navigateFrom(
+            R.id.placesFragment,
             PlacesFragmentDirections.actionPlacesToPlaceDetail(place.id, getString(place.nameRes))
         )
     }

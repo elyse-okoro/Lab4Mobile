@@ -15,6 +15,7 @@ import com.example.lab4mobile.databinding.FragmentHomeBinding
 import com.example.lab4mobile.ui.CityViewModel
 import com.example.lab4mobile.ui.CityViewModelFactory
 import com.example.lab4mobile.ui.list.PlaceAdapter
+import com.example.lab4mobile.ui.navigateFrom
 
 /** Главный экран: коротко о городе и по одному месту из каждой категории. */
 class HomeFragment : Fragment() {
@@ -41,7 +42,8 @@ class HomeFragment : Fragment() {
     }
 
     private fun openPlace(place: Place) {
-        findNavController().navigate(
+        findNavController().navigateFrom(
+            R.id.homeFragment,
             HomeFragmentDirections.actionHomeToPlaceDetail(place.id, getString(place.nameRes))
         )
     }
