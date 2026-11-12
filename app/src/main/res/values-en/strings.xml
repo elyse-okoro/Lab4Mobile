@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">My Izhevsk</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_favorites">Favourites</string>
+    <string name="nav_about">About</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_group_places">Places</string>
+    <string name="nav_group_app">App</string>
+    <string name="home_featured">Where to go first</string>
+    <string name="favorites_empty">No favourite places yet. Open a place and tap Add to favourites.</string>
+    <string name="action_add_favorite">Add to favourites</string>
+    <string name="action_remove_favorite">Remove from favourites</string>
+    <string name="about_text">My Izhevsk suggests what to see in the capital of Udmurtia: sights, museums, parks, theatres and places to go with children. Addresses and dates were checked against the websites of the places themselves and the city portal. Prices and opening hours are not listed because they change often.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">Same as system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <plurals name="places_count">
+        <item quantity="one">%1$d place</item>
+        <item quantity="other">%1$d places</item>
+    </plurals>
+
+    <string name="city_tagline">The capital of Udmurtia and a city of gunsmiths by the pond</string>
+    <string name="city_intro">Izhevsk is the capital of Udmurtia. The city counts its history from 10 April 1760, when work began on a dam across the Izh River and an ironworks owned by Count Pyotr Shuvalov. In 1807 Andrei Deryabin founded an arms factory here, and Izhevsk has been called a city of gunsmiths ever since; Mikhail Kalashnikov was one of its honorary citizens. The factory pond created by that dam still lies right in the centre, so almost any walk brings you to the water.</string>
+
+    <string name="category_sights_title">Sights</string>
+    <string name="category_sights_description">The monument above the pond, two cathedrals, the factory tower and the main square: what to see on a first visit.</string>
+
+    <string name="category_museums_title">Museums</string>
+    <string name="category_museums_description">Kalashnikov and weapons, local history, painting, an open-air Udmurt village and Izh motorcycles.</string>
+
+    <string name="category_parks_title">Parks</string>
+    <string name="category_parks_description">Places for a walk: the pond embankment, old gardens, squares and new city parks.</string>
+
+    <string name="category_theatres_title">Theatres and concerts</string>
+    <string name="category_theatres_description">Opera and ballet, plays in Russian and Udmurt, a puppet theatre and the philharmonic.</string>
+
+    <string name="category_family_title">With kids</string>
+    <string name="category_family_description">Where to go with children: the zoo, the circus, parks with rides and a monument to a space dog.</string>
+
+    <string name="place_sights_1_name">Friendship of Peoples Monument</string>
+    <string name="place_sights_1_summary">Two steel pylons above the pond that locals nicknamed Kulakova\'s Skis</string>
+    <string name="place_sights_1_description">The monument, dedicated to the 400th anniversary of Udmurtia becoming part of Russia, was unveiled on 26 June 1972. Its two pylons, clad in stainless steel, stand for Russia and Udmurtia. Between them rise gilded copper reliefs: a blacksmith, soldiers and two women in Russian and Udmurt dress holding up a banner. Locals call it Kulakova\'s Skis, after the famous cross-country skier. Come at sunset: the pylons stand at the top of the slope, and the sun goes down right behind the pond.</string>
+    <string name="place_sights_1_address">City centre, Izhevsk Pond shore</string>
+    <string name="place_sights_2_name">St Michael\'s Cathedral</string>
+    <string name="place_sights_2_summary">A 67-metre cathedral on one of the highest points of the city</string>
+    <string name="place_sights_2_description">The first cathedral was built from 1897 to 1907 with money donated by Izhevsk workers, to a design by Vyatka architect Ivan Charushin. It was closed in 1929 and demolished in 1937. The present building went up again in 2004–2007 and is now the diocese\'s cathedral. It is 67 metres tall and stands on Krasnaya Square, one of the highest points in the city, so you can see it from far away. Next to it is a sculpture of Saints Peter and Fevronia of Murom.</string>
+    <string name="place_sights_2_address">Karla Marksa St, 222</string>
+    <string name="place_sights_3_name">Arms Factory Main Building</string>
+    <string name="place_sights_3_summary">An early 19th-century factory building with a 50-metre tower, a city symbol</string>
+    <string name="place_sights_3_description">The main building of the Izhevsk arms factory was built in the first half of the 19th century to a design by architect Semyon Dudin, and it became the first multi-storey factory building in Russia. In 1834 it burned down and the tower collapsed, but the factory was rebuilt. The round tiered tower, about 50 metres tall, is a symbol of Izhevsk and is easy to see from the dam and the pond. Opposite the entrance stands a monument to the factory\'s founder Andrei Deryabin, put up in 1907.</string>
+    <string name="place_sights_3_address">Deryabina Proyezd, 3</string>
+    <string name="place_sights_4_name">Alexander Nevsky Cathedral</string>
+    <string name="place_sights_4_summary">A classicist cathedral completed in 1823 in the historic centre</string>
+    <string name="place_sights_4_description">The cathedral was modelled on St Andrew\'s Cathedral in Kronstadt by architect Andreyan Zakharov, and the Izhevsk church was completed in 1823. It was closed in 1929 and its bell tower pulled down; later the building housed the Koloss cinema, and believers only got it back in 1990. The interior has been painted again in the academic style. The grounds hold the tomb of Andrei Deryabin, founder of the arms factory, and the Russian Drama Theatre stands across the street.</string>
+    <string name="place_sights_4_address">Maksima Gorkogo St, 66</string>
+    <string name="place_sights_5_name">Central Square</string>
+    <string name="place_sights_5_summary">The main square of Izhevsk: Government House, the opera house, a fountain and Izhik</string>
+    <string name="place_sights_5_description">Central Square is home to the Government House of Udmurtia and the Opera and Ballet Theatre, along with a fountain and a statue of Izhik, a boy in a craftsman\'s caftan whom locals treat as the city mascot. The biggest city celebrations happen here: on 12 June, City Day, thousands of people fill the square. The esplanade starts here, and in about a quarter of an hour it takes you to the Friendship of Peoples Monument and down to the pond.</string>
+    <string name="place_sights_5_address">City centre, Pushkinskaya St</string>
+
+    <string name="place_museums_1_name">Kalashnikov Museum and Exhibition Complex</string>
+    <string name="place_museums_1_summary">A museum about Mikhail Kalashnikov and Izhevsk guns, with shooting ranges</string>
+    <string name="place_museums_1_description">The museum opened on 4 November 2004, in time for Mikhail Kalashnikov\'s 85th birthday, and its main exhibition covers his life and more than two centuries of gun making in Izhevsk. The shooting ranges are worth a visit too: the firearms range is for adults 18 and over, while the air-gun range is open from age six. Allow about two hours for the halls, the temporary shows and the range.</string>
+    <string name="place_museums_1_address">Borodina St, 19</string>
+    <string name="place_museums_2_name">Kuzebay Gerd National Museum of Udmurtia</string>
+    <string name="place_museums_2_summary">The main local history museum of Udmurtia, housed in the factory Arsenal</string>
+    <string name="place_museums_2_description">The museum is over a hundred years old: it was founded in November 1920. Since 1970 it has occupied the Arsenal of the arms factory, built in the 1820s by architect Semyon Dudin. The halls cover the nature of Udmurtia, archaeology, Udmurt daily life and beliefs, 19th-century fairs and the history of the factory towns. The museum is named after the Udmurt poet Kuzebay Gerd. Allow an hour and a half to two hours to see it all without rushing.</string>
+    <string name="place_museums_2_address">Kommunarov St, 287</string>
+    <string name="place_museums_3_name">Udmurt Republican Museum of Fine Arts</string>
+    <string name="place_museums_3_summary">19th-century Russian painting, Udmurt artists and changing exhibitions</string>
+    <string name="place_museums_3_description">The museum opened in 1980 in a 1953 building that had housed the Young Pioneers Palace. The collection covers Russian and Western European art from the late 18th to the early 20th century, with works by Shishkin, Benois and Serebryakova, plus a large body of work by Udmurt artists. Temporary exhibitions change several times a year, so it is worth coming back. The museum is named after one of those artists, A.\u00A0P.\u00A0Kholmogorov.</string>
+    <string name="place_museums_3_address">Kirova St, 128</string>
+    <string name="place_museums_4_name">Ludorvay Open-Air Museum</string>
+    <string name="place_museums_4_summary">An open-air Udmurt village with farmsteads, a windmill and perepechi</string>
+    <string name="place_museums_4_description">This open-air museum welcomed its first visitors in 1997: wooden buildings were moved here and restored, from farmsteads of the central and southern Udmurts and a section for the northern Udmurts and the Besermyan to a Russian hamlet and a windmill. At the southern Udmurt farmstead you can taste perepechi and tabani, traditional Udmurt baking. Plan a whole day, especially at Maslenitsa, and bring the kids.</string>
+    <string name="place_museums_4_address">Zavyalovsky District, near Ludorvay village</string>
+    <string name="place_museums_5_name">Kozhushkov Motorcycle Museum</string>
+    <string name="place_museums_5_summary">A private motorcycle museum, from the 1928 IZh-1 to the last Izhevsk models</string>
+    <string name="place_museums_5_description">The museum is private. It grew out of the collection of brothers Artyom and Pavel Kozhushkov, who spent more than twenty years building it. The story starts with the IZh-1 of 1928 and runs to the Kornet and Junker, some of the last models the Izhevsk plant made. Foreign bikes of the same years stand nearby, such as the BMW R35 and DKW RT-100. There are children\'s Izhik electric scooters too, and you can pose for photos on a Muravey cargo scooter.</string>
+    <string name="place_museums_5_address">City centre</string>
+
+    <string name="place_parks_1_name">Izhevsk Pond Embankment</string>
+    <string name="place_parks_1_summary">The embankment below the monument: pond views, a bike path and steps to the water</string>
+    <string name="place_parks_1_description">Izhevsk began with this pond. In 1760 a dam was built on the Izh River to power an ironworks, and the city grew up around the works. The rebuilt embankment opened in 2010, and now parents stroll here with prams while cyclists, rollerbladers and skateboarders use the bike path. The easiest way down to the water is the wide staircase from the Friendship of Peoples Monument. Come on a warm summer evening.</string>
+    <string name="place_parks_1_address">City centre, below the Friendship of Peoples Monument</string>
+    <string name="place_parks_2_name">Gorky Summer Garden</string>
+    <string name="place_parks_2_summary">The oldest park in Izhevsk, by the pond, once the garden of the General\'s House</string>
+    <string name="place_parks_2_description">This is the oldest park in Izhevsk. It was laid out in the 1850s around the General\'s House, home of the factory chiefs, and ordinary townspeople were not allowed in until the 1917 revolution. Today most people call it Gorky Park: a statue of the writer stands on the main alley, and there are fairground rides. The garden sits on the high bank of the pond, so a walk here can end with a view of the water.</string>
+    <string name="place_parks_2_address">City centre, between Militsionnaya and Maksima Gorkogo streets</string>
+    <string name="place_parks_3_name">Birch Grove Park</string>
+    <string name="place_parks_3_summary">A quiet park locals call Goat Park, with a goat statue made of scrap metal</string>
+    <string name="place_parks_3_description">For a long time the park had no official name, and locals called it either the Birch Grove or Goat Park, because people from the nearby private houses once grazed goats here. Funnily enough, there are not that many birches. In memory of the goats, a tongue-in-cheek goat sculpture was put up, welded from bearings, springs and tank caps. People come here for an unhurried hour-long walk, a jog or a sports event.</string>
+    <string name="place_parks_3_address">Avangardnaya St</string>
+    <string name="place_parks_4_name">Victory Garden on Karlutskaya Square</string>
+    <string name="place_parks_4_summary">A garden next to the Arsenal with the Eternal Flame and a war memorial</string>
+    <string name="place_parks_4_description">The Eternal Flame on Karlutskaya Square was lit on 6 November 1967, the day the Monument of Military and Labour Glory was unveiled. A soldier surges forward holding a banner above his head, beside a curved stele with a copper frieze. The garden also has a bust of Yevgeny Kungurtsev, twice Hero of the Soviet Union. For over a century the square was a wasteland; today it hosts memorial ceremonies and quiet walks. The Arsenal with the National Museum is right next door.</string>
+    <string name="place_parks_4_address">Karlutskaya Square, next to the Arsenal</string>
+    <string name="place_parks_5_name">Gunsmith Dragunov Park</string>
+    <string name="place_parks_5_summary">A small park with a duck pond, an amphitheatre and a playground</string>
+    <string name="place_parks_5_description">The park opened on 12 October 2019, and residents chose its name themselves, after the weapons designer Yevgeny Dragunov, an honorary citizen of Izhevsk. Dormitories for workers of the Izhmash plant, where Dragunov worked, were once built in this area. The park is small, about 12,000 square metres, yet it has a pond with ducks, an amphitheatre for concerts, a volleyball court, ping-pong tables and a playground with climbing hills.</string>
+    <string name="place_parks_5_address">Leninsky District</string>
+
+    <string name="place_theatres_1_name">Tchaikovsky Opera and Ballet Theatre</string>
+    <string name="place_theatres_1_summary">Opera, ballet and operetta on Central Square, with plenty of Tchaikovsky</string>
+    <string name="place_theatres_1_description">Tchaikovsky was born in Udmurtia, and the theatre bears his name: the repertoire includes his ballets Swan Lake and The Nutcracker and his operas Eugene Onegin and Iolanta, plus operettas and musicals. The building on Central Square went up in 1984, and the company became an opera and ballet theatre in 1993. Book early for the popular ballets.</string>
+    <string name="place_theatres_1_address">Pushkinskaya St, 221</string>
+    <string name="place_theatres_2_name">National Theatre of the Udmurt Republic</string>
+    <string name="place_theatres_2_summary">The first professional Udmurt theatre, with simultaneous translation into Russian</string>
+    <string name="place_theatres_2_description">The first professional Udmurt theatre opened with a performance on 7 February 1931. Udmurt plays share the repertoire with Russian and foreign classics, and performances come with simultaneous translation into Russian, so the language is no barrier for Russian speakers. The building was renovated and reopened in 2008. If you want to see something you will not find in other cities, pick a play by an Udmurt author.</string>
+    <string name="place_theatres_2_address">Maksima Gorkogo St, 73</string>
+    <string name="place_theatres_3_name">Russian Drama Theatre of Udmurtia</string>
+    <string name="place_theatres_3_summary">A drama theatre founded in 1935, opposite the Alexander Nevsky Cathedral</string>
+    <string name="place_theatres_3_description">The theatre opened on 18 October 1935 with the play The Aristocrats, and since 2011 it has occupied the renovated former Izhmash Palace of Culture, right opposite the Alexander Nevsky Cathedral. Look up in the foyer: the ceiling carries reliefs with views of Izhevsk, including the Arsenal and the factory tower. The repertoire features Russian and foreign classics, and there are shows for children too.</string>
+    <string name="place_theatres_3_address">Maksima Gorkogo St, 71</string>
+    <string name="place_theatres_4_name">Udmurt State Puppet Theatre</string>
+    <string name="place_theatres_4_summary">A puppet theatre since 1935: fairy tales for little ones and shows for adults</string>
+    <string name="place_theatres_4_description">The puppet theatre has been running in Izhevsk since 1935, and its founders trained with Sergei Obraztsov. It moved into its own building on Lomonosov Street in 1980. Most of the repertoire is fairy tales for children, but there are shows for adults as well, such as The Meek One, based on Dostoevsky\'s novella. The company works in two languages and stages plays by Udmurt writers. For a child\'s first visit, a morning show is the easiest choice.</string>
+    <string name="place_theatres_4_address">Lomonosova St, 9</string>
+    <string name="place_theatres_5_name">Udmurt State Philharmonic</string>
+    <string name="place_theatres_5_summary">A symphony orchestra, the Italmas ensemble and a Tchaikovsky festival</string>
+    <string name="place_theatres_5_description">The philharmonic was founded on 21 August 1938. Under its roof you will find the State Symphony Orchestra of Udmurtia, the Italmas song and dance ensemble, the Academic Choral Capella and the Golden Melody orchestra. Since 1958 it has run the arts festival In Tchaikovsky\'s Homeland, one of the oldest festivals in Russia. If you have never been to a symphony concert, start with the Philharmonic for Children programmes.</string>
+    <string name="place_theatres_5_address">Pushkinskaya St, 245</string>
+
+    <string name="place_family_1_name">Udmurtia Zoo</string>
+    <string name="place_family_1_summary">A zoo with walruses, polar bears and Amur tigers, and glass instead of bars</string>
+    <string name="place_family_1_description">The zoo opened on 10 September 2008 inside Kirov Park. Instead of bars, glass, moats and water separate the animals from visitors, and the enclosures imitate nature. The zones are named after habitats: White North, Far East with Amur tigers, Our Taiga and Monkey Land, plus a children\'s zoo where kids can meet the animals up close. The walruses are the real stars and perform on a stage in their enclosure. Come in the morning: seeing everything takes half a day.</string>
+    <string name="place_family_1_address">Kirova St, 8</string>
+    <string name="place_family_2_name">Udmurt State Circus</string>
+    <string name="place_family_2_summary">A circus in a 2003 building; the first permanent circus in Izhevsk dates from 1895</string>
+    <string name="place_family_2_description">The first permanent circus in Izhevsk was built back in 1895. The current building, designed by architect Mikhail Vesnin, opened in September 2003 on the site of the old 1943 circus, which had to be demolished. The circus has a studio for young performers, and since 2008 it has hosted international circus festivals. With small children, a weekend afternoon show is the easiest option.</string>
+    <string name="place_family_2_address">Krasnoarmeyskaya St, 136</string>
+    <string name="place_family_3_name">Kirov Park</string>
+    <string name="place_family_3_summary">A park in a conifer forest by the pond: rides in summer, skating and tubing in winter</string>
+    <string name="place_family_3_description">The park opened in 1934 in a conifer forest near the pond, and during the Second World War army units were formed and trained here, as a memorial plaque and surviving trenches remind visitors. In summer there are rides for children; in winter you will find a skating rink, ski rental and tubing runs. The zoo is right here too, so you can easily combine both in one day.</string>
+    <string name="place_family_3_address">Kirova St, next to the zoo</string>
+    <string name="place_family_4_name">Cosmonauts Park</string>
+    <string name="place_family_4_summary">A family park in Bummash with rides, a Solar System model and a planetarium</string>
+    <string name="place_family_4_description">The park grew up alongside the Izhtyazhbummash plant and the new housing around it, and today it is a favourite family spot in the Bummash district. In summer there are rides and a scale model of the Solar System, every September brings the Redhead Festival, and in winter the park gets a skating rink and a tubing run. A digital planetarium is open all year.</string>
+    <string name="place_family_4_address">Votkinskoye Highway, Bummash district</string>
+    <string name="place_family_5_name">Zvezdochka Space Dog Monument</string>
+    <string name="place_family_5_summary">A cast-iron space capsule with a space dog peeking out of the hatch</string>
+    <string name="place_family_5_description">On 25 March 1961 a dog named Zvezdochka, Little Star, flew into space aboard a Soviet satellite ship. The capsule was found by Izhevsk pilot Lev Okkelman, and the dog was taken to Izhevsk airport. The monument stands by the former runway of the old airfield: Zvezdochka peeks out of the hatch of a cast-iron capsule engraved with the story of the flight and 50 names of people who paved the way to space. Tell your kids that Gagarin flew less than three weeks later.</string>
+    <string name="place_family_5_address">Molodyozhnaya St, 34</string>
+</resources>

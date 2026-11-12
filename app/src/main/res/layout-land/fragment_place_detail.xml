@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- в альбомной ориентации картинка слева, текст справа: по высоте они рядом не помещаются -->
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/place_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.PlaceDetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_medium">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/place_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="@dimen/detail_image_width_fraction"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.Lab4Mobile.Image"
+            tools:src="@drawable/place_museums_1" />
+
+        <TextView
+            android:id="@+id/place_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:textAllCaps="true"
+            android:textAppearance="?attr/textAppearanceLabelLarge"
+            android:textColor="?attr/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/place_image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/category_museums_title" />
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:accessibilityHeading="true"
+            tools:targetApi="p"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/place_category"
+            app:layout_constraintTop_toBottomOf="@id/place_category"
+            tools:text="@string/place_museums_1_name" />
+
+        <TextView
+            android:id="@+id/place_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:drawablePadding="@dimen/spacing_small"
+            android:gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            app:drawableStartCompat="@drawable/ic_place"
+            app:drawableTint="?attr/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/place_category"
+            app:layout_constraintTop_toBottomOf="@id/place_name"
+            tools:text="@string/place_museums_1_address" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/favorite_button"
+            style="@style/Widget.Material3.Button.TonalButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            app:icon="@drawable/ic_favorite_border"
+            app:layout_constraintStart_toStartOf="@id/place_category"
+            app:layout_constraintTop_toBottomOf="@id/place_address"
+            tools:text="@string/action_add_favorite" />
+
+        <TextView
+            android:id="@+id/place_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:lineSpacingMultiplier="1.2"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/place_category"
+            app:layout_constraintTop_toBottomOf="@id/favorite_button"
+            tools:text="@string/place_museums_1_description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
