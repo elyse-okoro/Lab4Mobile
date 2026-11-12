@@ -27,7 +27,7 @@ class CityViewModel(
     val featuredPlaces: List<Place> = placesRepository.getFeaturedPlaces()
 
     private val _favoriteIds = MutableLiveData(favoritesRepository.getFavoriteIds())
-    val favoriteIds: LiveData<Set<String>> = _favoriteIds
+    val favoriteIds: LiveData<Set<Int>> = _favoriteIds
 
     val favoritePlaces: LiveData<List<Place>> = _favoriteIds.map { ids -> placesRepository.getPlaces(ids) }
 
@@ -38,9 +38,9 @@ class CityViewModel(
 
     fun getPlaces(categoryId: CategoryId): List<Place> = placesRepository.getPlaces(categoryId)
 
-    fun getPlace(id: String): Place? = placesRepository.getPlace(id)
+    fun getPlace(id: Int): Place? = placesRepository.getPlace(id)
 
-    fun toggleFavorite(placeId: String) {
+    fun toggleFavorite(placeId: Int) {
         _favoriteIds.value = favoritesRepository.toggle(placeId)
     }
 

@@ -5,7 +5,7 @@ import androidx.annotation.StringRes
 
 /** Рекомендованное место: тексты в strings.xml, значок для списка и картинка для экрана деталей. */
 data class Place(
-    val id: String,
+    val id: Int,
     val categoryId: CategoryId,
     @param:StringRes val nameRes: Int,
     @param:StringRes val summaryRes: Int,

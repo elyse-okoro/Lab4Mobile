@@ -58,7 +58,7 @@
         tools:layout="@layout/fragment_place_detail">
         <argument
             android:name="placeId"
-            app:argType="string" />
+            app:argType="integer" />
         <argument
             android:name="placeName"
             app:argType="string" />

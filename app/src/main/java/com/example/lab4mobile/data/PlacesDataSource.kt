@@ -45,7 +45,7 @@ object PlacesDataSource {
 
     val places: List<Place> = listOf(
         Place(
-            id = "sights_1",
+            id = 1,
             categoryId = CategoryId.SIGHTS,
             nameRes = R.string.place_sights_1_name,
             summaryRes = R.string.place_sights_1_summary,
@@ -55,7 +55,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_sights_1
         ),
         Place(
-            id = "sights_2",
+            id = 2,
             categoryId = CategoryId.SIGHTS,
             nameRes = R.string.place_sights_2_name,
             summaryRes = R.string.place_sights_2_summary,
@@ -65,7 +65,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_sights_2
         ),
         Place(
-            id = "sights_3",
+            id = 3,
             categoryId = CategoryId.SIGHTS,
             nameRes = R.string.place_sights_3_name,
             summaryRes = R.string.place_sights_3_summary,
@@ -75,7 +75,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_sights_3
         ),
         Place(
-            id = "sights_4",
+            id = 4,
             categoryId = CategoryId.SIGHTS,
             nameRes = R.string.place_sights_4_name,
             summaryRes = R.string.place_sights_4_summary,
@@ -85,7 +85,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_sights_4
         ),
         Place(
-            id = "sights_5",
+            id = 5,
             categoryId = CategoryId.SIGHTS,
             nameRes = R.string.place_sights_5_name,
             summaryRes = R.string.place_sights_5_summary,
@@ -95,7 +95,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_sights_5
         ),
         Place(
-            id = "museums_1",
+            id = 6,
             categoryId = CategoryId.MUSEUMS,
             nameRes = R.string.place_museums_1_name,
             summaryRes = R.string.place_museums_1_summary,
@@ -105,7 +105,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_museums_1
         ),
         Place(
-            id = "museums_2",
+            id = 7,
             categoryId = CategoryId.MUSEUMS,
             nameRes = R.string.place_museums_2_name,
             summaryRes = R.string.place_museums_2_summary,
@@ -115,7 +115,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_museums_2
         ),
         Place(
-            id = "museums_3",
+            id = 8,
             categoryId = CategoryId.MUSEUMS,
             nameRes = R.string.place_museums_3_name,
             summaryRes = R.string.place_museums_3_summary,
@@ -125,7 +125,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_museums_3
         ),
         Place(
-            id = "museums_4",
+            id = 9,
             categoryId = CategoryId.MUSEUMS,
             nameRes = R.string.place_museums_4_name,
             summaryRes = R.string.place_museums_4_summary,
@@ -135,7 +135,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_museums_4
         ),
         Place(
-            id = "museums_5",
+            id = 10,
             categoryId = CategoryId.MUSEUMS,
             nameRes = R.string.place_museums_5_name,
             summaryRes = R.string.place_museums_5_summary,
@@ -145,7 +145,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_museums_5
         ),
         Place(
-            id = "parks_1",
+            id = 11,
             categoryId = CategoryId.PARKS,
             nameRes = R.string.place_parks_1_name,
             summaryRes = R.string.place_parks_1_summary,
@@ -155,7 +155,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_parks_1
         ),
         Place(
-            id = "parks_2",
+            id = 12,
             categoryId = CategoryId.PARKS,
             nameRes = R.string.place_parks_2_name,
             summaryRes = R.string.place_parks_2_summary,
@@ -165,7 +165,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_parks_2
         ),
         Place(
-            id = "parks_3",
+            id = 13,
             categoryId = CategoryId.PARKS,
             nameRes = R.string.place_parks_3_name,
             summaryRes = R.string.place_parks_3_summary,
@@ -175,7 +175,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_parks_3
         ),
         Place(
-            id = "parks_4",
+            id = 14,
             categoryId = CategoryId.PARKS,
             nameRes = R.string.place_parks_4_name,
             summaryRes = R.string.place_parks_4_summary,
@@ -185,7 +185,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_parks_4
         ),
         Place(
-            id = "parks_5",
+            id = 15,
             categoryId = CategoryId.PARKS,
             nameRes = R.string.place_parks_5_name,
             summaryRes = R.string.place_parks_5_summary,
@@ -195,7 +195,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_parks_5
         ),
         Place(
-            id = "theatres_1",
+            id = 16,
             categoryId = CategoryId.THEATRES,
             nameRes = R.string.place_theatres_1_name,
             summaryRes = R.string.place_theatres_1_summary,
@@ -205,7 +205,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_theatres_1
         ),
         Place(
-            id = "theatres_2",
+            id = 17,
             categoryId = CategoryId.THEATRES,
             nameRes = R.string.place_theatres_2_name,
             summaryRes = R.string.place_theatres_2_summary,
@@ -215,7 +215,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_theatres_2
         ),
         Place(
-            id = "theatres_3",
+            id = 18,
             categoryId = CategoryId.THEATRES,
             nameRes = R.string.place_theatres_3_name,
             summaryRes = R.string.place_theatres_3_summary,
@@ -225,7 +225,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_theatres_3
         ),
         Place(
-            id = "theatres_4",
+            id = 19,
             categoryId = CategoryId.THEATRES,
             nameRes = R.string.place_theatres_4_name,
             summaryRes = R.string.place_theatres_4_summary,
@@ -235,7 +235,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_theatres_4
         ),
         Place(
-            id = "theatres_5",
+            id = 20,
             categoryId = CategoryId.THEATRES,
             nameRes = R.string.place_theatres_5_name,
             summaryRes = R.string.place_theatres_5_summary,
@@ -245,7 +245,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_theatres_5
         ),
         Place(
-            id = "family_1",
+            id = 21,
             categoryId = CategoryId.FAMILY,
             nameRes = R.string.place_family_1_name,
             summaryRes = R.string.place_family_1_summary,
@@ -255,7 +255,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_family_1
         ),
         Place(
-            id = "family_2",
+            id = 22,
             categoryId = CategoryId.FAMILY,
             nameRes = R.string.place_family_2_name,
             summaryRes = R.string.place_family_2_summary,
@@ -265,7 +265,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_family_2
         ),
         Place(
-            id = "family_3",
+            id = 23,
             categoryId = CategoryId.FAMILY,
             nameRes = R.string.place_family_3_name,
             summaryRes = R.string.place_family_3_summary,
@@ -275,7 +275,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_family_3
         ),
         Place(
-            id = "family_4",
+            id = 24,
             categoryId = CategoryId.FAMILY,
             nameRes = R.string.place_family_4_name,
             summaryRes = R.string.place_family_4_summary,
@@ -285,7 +285,7 @@ object PlacesDataSource {
             imageRes = R.drawable.place_family_4
         ),
         Place(
-            id = "family_5",
+            id = 25,
             categoryId = CategoryId.FAMILY,
             nameRes = R.string.place_family_5_name,
             summaryRes = R.string.place_family_5_summary,

@@ -18,9 +18,9 @@ class PlacesRepository(
 
     fun getPlaces(categoryId: CategoryId): List<Place> = places.filter { it.categoryId == categoryId }
 
-    fun getPlaces(ids: Set<String>): List<Place> = places.filter { it.id in ids }
+    fun getPlaces(ids: Set<Int>): List<Place> = places.filter { it.id in ids }
 
-    fun getPlace(id: String): Place? = places.firstOrNull { it.id == id }
+    fun getPlace(id: Int): Place? = places.firstOrNull { it.id == id }
 
     /** Для главного экрана — первое место каждой категории. */
     fun getFeaturedPlaces(): List<Place> =

@@ -8,6 +8,7 @@ import org.junit.Test
 class PlacesRepositoryTest {
 
     private val repository = PlacesRepository()
+    private val unknownPlaceId = -1
 
     @Test
     fun everyCategoryHasFivePlaces() {
@@ -42,7 +43,7 @@ class PlacesRepositoryTest {
         val park = repository.getPlaces(CategoryId.PARKS).first()
 
         assertEquals(park, repository.getPlace(park.id))
-        assertNull(repository.getPlace("unknown"))
+        assertNull(repository.getPlace(unknownPlaceId))
     }
 
     @Test

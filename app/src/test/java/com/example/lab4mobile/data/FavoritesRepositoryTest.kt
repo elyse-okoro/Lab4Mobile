@@ -18,15 +18,15 @@ class FavoritesRepositoryTest {
     fun toggle_addsAndRemovesPlace() {
         val repository = FavoritesRepository(preferences)
 
-        assertEquals(setOf("museums_1"), repository.toggle("museums_1"))
-        assertEquals(setOf("museums_1", "parks_2"), repository.toggle("parks_2"))
-        assertEquals(setOf("parks_2"), repository.toggle("museums_1"))
+        assertEquals(setOf(6), repository.toggle(6))
+        assertEquals(setOf(6, 12), repository.toggle(12))
+        assertEquals(setOf(12), repository.toggle(6))
     }
 
     @Test
     fun favoritesSurviveAppRestart() {
-        FavoritesRepository(preferences).toggle("theatres_3")
+        FavoritesRepository(preferences).toggle(18)
 
-        assertEquals(setOf("theatres_3"), FavoritesRepository(preferences).getFavoriteIds())
+        assertEquals(setOf(18), FavoritesRepository(preferences).getFavoriteIds())
     }
 }
