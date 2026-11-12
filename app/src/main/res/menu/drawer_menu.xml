@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- выделенный пункт ставит MainActivity по текущему экрану; в группе single его нельзя было бы снять -->
+    <group
+        android:id="@+id/drawer_group_home"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+    </group>
     <item android:title="@string/nav_group_places">
         <menu>
             <group

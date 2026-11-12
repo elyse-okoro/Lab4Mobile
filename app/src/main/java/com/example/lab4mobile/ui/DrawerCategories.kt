@@ -25,7 +25,7 @@ object DrawerCategories {
     /** Какой пункт панели выделить на экране [destinationId]; null — ни один. */
     fun checkedItemFor(@IdRes destinationId: Int, arguments: Bundle?): Int? = when (destinationId) {
         R.id.placesFragment -> arguments?.let { menuItemFor(PlacesFragmentArgs.fromBundle(it).categoryId) }
-        R.id.aboutFragment, R.id.settingsFragment -> destinationId
+        R.id.homeFragment, R.id.aboutFragment, R.id.settingsFragment -> destinationId
         else -> null
     }
 }

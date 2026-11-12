@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
+        // без id DrawerLayout не сохранит при повороте, открыта ли панель; у корня планшетной
+        // разметки этого id быть не должно, иначе ему достанется чужое сохранённое состояние
+        drawerLayout?.id = R.id.drawer_layout
         setContentView(binding.root)
         setSupportActionBar(binding.content.toolbar)
         applyWindowInsets()
@@ -105,8 +108,9 @@ class MainActivity : AppCompatActivity() {
 
     /** Выделяет в боковой панели пункт текущего экрана; на остальных экранах выделения нет. */
     private fun showCheckedDrawerItem(checkedItemId: Int?) {
-        binding.navView.menu.forEach { section ->
-            section.subMenu?.forEach { item -> item.isChecked = item.itemId == checkedItemId }
+        binding.navView.menu.forEach { topItem ->
+            topItem.isChecked = topItem.itemId == checkedItemId
+            topItem.subMenu?.forEach { item -> item.isChecked = item.itemId == checkedItemId }
         }
     }
 

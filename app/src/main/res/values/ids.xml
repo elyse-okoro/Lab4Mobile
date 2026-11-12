@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- id для DrawerLayout задаётся в MainActivity: в XML корни двух разметок activity_main
+         обязаны иметь одинаковый id, а классы у них разные -->
+    <item name="drawer_layout" type="id" />
+</resources>
